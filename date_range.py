@@ -11,3 +11,4 @@ class DateRange:
     def __str__(self):
         json_data = json.dumps(vars(self))
         return json_data
+

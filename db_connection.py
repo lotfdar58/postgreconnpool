@@ -14,8 +14,8 @@ class DbConnection:
         try:
             connection_pool = psycopg2.pool.SimpleConnectionPool(1, 2,
                                                                  user="postgres",
-                                                                 password="",
-                                                                 host="",
+                                                                 password="123",
+                                                                 host="localhost",
                                                                  port="5432",
                                                                  database="postgres"
                                                                  )
